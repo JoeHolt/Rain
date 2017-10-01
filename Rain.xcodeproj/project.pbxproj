@@ -15,6 +15,7 @@
 		6976827F1F815D4000736BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6976827E1F815D4000736BD7 /* Assets.xcassets */; };
 		697682821F815D4000736BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 697682801F815D4000736BD7 /* Main.storyboard */; };
 		6976828E1F815D4000736BD7 /* RainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6976828D1F815D4000736BD7 /* RainTests.swift */; };
+		697682991F815DD200736BD7 /* RainDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697682981F815DD200736BD7 /* RainDrop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		697682891F815D4000736BD7 /* RainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6976828D1F815D4000736BD7 /* RainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainTests.swift; sourceTree = "<group>"; };
 		6976828F1F815D4000736BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		697682981F815DD200736BD7 /* RainDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainDrop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				697682761F815D4000736BD7 /* GameScene.sks */,
 				697682781F815D4000736BD7 /* Actions.sks */,
 				6976827A1F815D4000736BD7 /* GameScene.swift */,
+				697682981F815DD200736BD7 /* RainDrop.swift */,
 				6976827C1F815D4000736BD7 /* ViewController.swift */,
 				6976827E1F815D4000736BD7 /* Assets.xcassets */,
 				697682801F815D4000736BD7 /* Main.storyboard */,
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697682991F815DD200736BD7 /* RainDrop.swift in Sources */,
 				6976827D1F815D4000736BD7 /* ViewController.swift in Sources */,
 				6976827B1F815D4000736BD7 /* GameScene.swift in Sources */,
 				697682751F815D4000736BD7 /* AppDelegate.swift in Sources */,
